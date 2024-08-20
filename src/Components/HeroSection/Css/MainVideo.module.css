@@ -1,0 +1,68 @@
+
+.bgVideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 130px;
+    left: 0;
+    /* position: fixed; */
+    position: absolute;
+    z-index: -1;
+    filter: brightness(75%);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: none;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+@media (min-width:300px) and (min-height:750px){
+    .container{
+        height: 60vh;
+    }
+    .bgVideo{
+        height: 60%;
+    }
+}
+@media (max-width:700px) and (max-height:850px){
+    .container{
+        height: 70vh;
+    }
+    .bgVideo{
+        height: 70%;
+    }
+}
+@media (max-width:650px) and (max-height:750px){
+    .container{
+        height: 80vh;
+    }
+    .bgVideo{
+        height: 80%;
+    }
+}
+@media (max-width:650px) and (max-height:650px){
+    .container{
+        height: 100vh;
+    }
+    .bgVideo{
+        height: 100%;
+    }
+}
+@media (min-width:800px) and (min-height:800px){
+    .container{
+        height: 60vh;
+    }
+    .bgVideo{
+        height: 60%;
+    }
+}
+@media (min-width:900px) and (min-height:800px) and (max-width:1200px){
+    .container{
+        height: 70vh;
+    }
+    .bgVideo{
+        height: 70%;
+    }
+}

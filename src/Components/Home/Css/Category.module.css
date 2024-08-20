@@ -1,0 +1,42 @@
+.containerDiv{
+background-color: rgb(246, 244, 244);
+padding-top: 20px;
+padding-left:40px;
+padding-right:40px;
+}
+.Heading{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    font-family: serif;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    color: rgb(54, 54, 54);
+}
+.col{
+    /* background-color: aliceblue; */
+}
+.link{
+    text-decoration: none;
+}
+.card{
+    border: none;
+    border-radius: 0;
+    background: none;
+
+}
+.card:hover{
+    opacity: 0.9;
+}
+.cardImg{
+    border: none;
+    border-radius: 0;
+}
+.cardBody{
+    text-align: left;
+    padding-left: 0%;
+    /* display: flex; */
+
+}

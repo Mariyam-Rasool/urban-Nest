@@ -1,0 +1,55 @@
+.topDiv{
+    margin-top: 150px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.search{
+    width: 500px;
+}
+.search:focus{
+    outline: none;
+    box-shadow: none;
+}
+.dropdown{
+    border-radius:0;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px ;
+
+
+}
+.dropButton{
+    border: none;
+}
+.list{
+    border-radius: 0;
+
+}
+.select{
+    margin-top: 5px;
+
+}
+.dropItems{
+    margin-top: 5px;
+
+}
+
+@media (max-width:712px) {
+    .search{
+        width: auto;
+    }
+    
+}
+@media (max-width:410px) {
+    .search{
+        width: 150px;
+    }
+    .dropdown{
+        padding-left: 0px;
+        padding-right: 0px ;
+    }
+    
+}

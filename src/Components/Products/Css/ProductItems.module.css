@@ -1,0 +1,50 @@
+.containerDiv{
+    /* width: 100%; */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 35px;
+    
+}
+.Heading{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: serif;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    }
+.card{
+    border: none;
+    border-radius: 0px;
+}
+.cardImg{
+    border-radius: 0px;
+    /* z-index: 2; */
+}
+.imageDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    justify-content:end;
+    position: relative;
+}
+.cartButton{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(125, 125, 125);
+    display: none;
+    color: white;
+    position: absolute;
+}
+.imageDiv:hover{
+    .cartButton{
+        display:block;
+    }
+}

@@ -1,0 +1,318 @@
+.container {
+    margin-top: 150px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    gap: 2rem;
+    /* width: 700px; */
+  }
+  .emptyMessageDiv{
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  /* justify-content: space-around; */
+  }
+  .emptyMessage{
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+    /* font-size: 18px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: serif;
+    color: gray;
+
+  }
+  .button{
+    margin-top: 30px;
+    background-color: rgb(86, 85, 85);
+    color: white;
+    border-radius: 0%;
+    width:150px ;
+    text-decoration: none;
+}
+.button:hover{
+   
+    background-color: rgb(112, 112, 112);
+    color: white;
+
+}
+.heading{
+    /* color: #424242; */
+    /* margin-top:20px; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    /* font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(88, 88, 88);
+}
+  .cartItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 0px;
+    /* background-color: aquamarine; */
+    height: 130px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+  }
+  .link{
+  text-decoration: none;
+  }
+  
+  .cartItemContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    /* background-color: aliceblue; */
+    object-fit: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .detailsContainer {
+    /* width: 700px; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color:aliceblue; */
+    align-items: center;
+  }
+  
+  .productName {
+    font-size: 15px;
+    margin: 0;
+    color: #292929;
+    font-weight: 500;
+  }
+
+  .quantityContainer {
+    
+    /* background-color: antiquewhite; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:120px;
+    padding: 0%;
+    margin: 0%;
+    /* border: 1px solid gray; */
+  }
+
+  .quantityButton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(182, 182, 182);
+    margin: 0%;
+    border-radius: 0%;
+    border: none;
+}
+  .quantityButton:hover{
+    background-color: rgb(146, 146, 146);
+    color: white;
+
+}
+  .quantityButton1{
+
+    padding-left: 14px;
+    padding-right: 14px;
+}
+  .quantityButton2{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+  .productPrice {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .deleteContainer {
+    text-align: center;
+    /* background-color: rgb(73, 106, 136); */
+    max-width: 100px;
+
+  }
+  
+  .deleteButton {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+  }
+  .deleteButton:hover {
+    color: rgb(32, 32, 32);
+}
+  
+  .checkoutContainer {
+    /* margin-top: -50px; */
+    /* float:right; */
+    display:flex;
+    /* justify-content: flex-end; */
+    /* background-color: antiquewhite; */
+    /* height: 300px; */
+    width: 300px;
+    /* border: 1px solid rgb(219, 219, 219); */
+    border-top: none;
+    /* border-radius: 10px; */
+    
+    /* min-width: 400px; */
+    /* border-top: 2px solid #ddd; */
+    /* padding-top: 10px; */
+  }
+  .summary {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    /* align-items:; */
+    justify-content: center;
+    /* padding: 50px; */
+}
+.paraDiv{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    font-size: 18px;
+    font-weight:400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: #555; */
+}
+  
+  .checkoutButton {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 275px;
+    /* padding: 10px 20px; */
+    background-color: #4f4f4f;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .checkoutButton:hover {
+    background-color: #696969;
+    color: #fff;
+  }
+/* Styles for screens larger than 768px (desktop view) remain the same */
+
+/* Responsive styles for screens smaller than 768px (mobile view) */
+@media (max-width: 992px) {
+  .productImage{
+    width: 160%;
+  }
+
+}
+@media (max-width: 767px) {
+    .cartItems{
+        overflow-x: scroll;
+        width: 100%;
+
+        
+        /* background-color:blue; */
+       
+    }
+    /* .cartItem{
+        border:1px solid gray;
+        width: 100%;
+
+    } */
+    .cartItemContent {
+        /* background-color: antiquewhite; */
+      flex-direction: column;
+      gap:1rem;
+      align-items: center; /* Center items horizontally */
+      text-align: center; /* Center text */
+      /* background-color: #d2d2d2; */
+      width: 100%;
+      /* border:1px solid gray; */
+
+      
+    }
+  
+    .imageContainer {
+      height:100%; /* Full width for image container */
+      width:50%; /* Full width for image container */
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+      /* background-color: #4f4f4f; */
+    }
+  
+    .productImage {
+      width: 40%; /* Adjust width of the image to prevent it from being too large */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    
+  
+    .detailsContainer {
+        /* background-color: aliceblue; */
+      /* width: 500px; */
+      margin-bottom: 10px;
+    }
+  
+    .productName {
+      font-size: 10px; /* Adjust font size for readability */
+      margin-bottom: 5px;
+    }
+  
+    .quantityContainer {
+      width: 80%; /* Adjust width to avoid stretching too far */
+      justify-content: space-around; /* Space buttons evenly */
+      margin-bottom: 10px;
+    }
+  
+    .productPrice {
+      margin: 0;
+      font-size: 14px; /* Adjust font size */
+      margin-bottom: 10px;
+      margin-left: 20px;
+    }
+  
+    .deleteContainer {
+      width: 100%; /* Full width for delete button container */
+      text-align: center; /* Center the delete button */
+      margin-top: 10px;
+      margin-bottom: 40px;
+      margin-left: 100px;
+    }
+  
+    .checkoutContainer {
+      width: 100%; /* Full width for the checkout container */
+      margin-top: 20px;
+      display: flex;
+      justify-content: center; /* Center the checkout button */
+    }
+  
+    .checkoutButton {
+      width: 80%; /* Slightly reduce width for a better fit */
+      margin-top: 10px;
+    }
+  }
+  
+  

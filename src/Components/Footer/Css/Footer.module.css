@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(76, 76, 76);
+    color: white;
+}
+.background{
+    background-color: rgb(76, 76, 76);
+
+}
+.text{
+    color: white !important;
+}
+.button{
+    background-color: rgb(161, 161, 161);
+    color: white;
+}
+.button:hover{
+    background-color: rgb(125, 125, 125);
+    color: rgb(255, 255, 255);
+}

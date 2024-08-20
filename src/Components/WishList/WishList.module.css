@@ -1,0 +1,85 @@
+.containerDiv {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-left: 35px;
+}
+
+.Heading {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(88, 88, 88);
+}
+.para{
+    /* margin-bottom: 50px; */
+    font-size: 20px;
+    font-family: serif;
+    color: gray;
+
+}
+.link{
+    text-decoration: none;
+}
+.button{
+    margin-top: 30px;
+    background-color: rgb(86, 85, 85);
+    color: white;
+    border-radius: 0%;
+    width:150px ;
+    text-decoration: none;
+}
+.button:hover{
+   
+    background-color: rgb(112, 112, 112);
+    color: white;
+
+}
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.link {
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    border-radius: 0px;
+    position: relative;
+}
+
+.cardImg {
+    border-radius: 0px;
+}
+
+.cardWrapper {
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 24px; /* Increase size for better visibility */
+    color: gray;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1px;
+}
+
+.closeButton:hover {
+    color: rgb(52, 43, 43);
+    background: rgba(209, 209, 209, 0.9); /* Slightly more opaque on hover */
+}
