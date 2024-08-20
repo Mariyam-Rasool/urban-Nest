@@ -1,12 +1,13 @@
 .textDiv{
     height: 400px;
     width: 41%;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     /* background-color: antiquewhite; */
 }
 .cardText{
 border-radius: 0%;
 border: none;
+/* background-color: aqua; */
 }
 .cardBody{
     display: flex;
